@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author linchengdong
- * @created 2021-01-13 9:02
+ *
+ *
  */
 @SpringBootApplication
 @MapperScan("com.geewise.bigdata.mapper")

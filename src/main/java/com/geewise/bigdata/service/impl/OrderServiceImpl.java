@@ -10,8 +10,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * @author linchengdong
- * @created 2021-01-13 9:40
+ *
+ *
  */
 @Service
 public class OrderServiceImpl implements OrderService {
@@ -27,5 +27,10 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public List<Order> getOrderById(Integer id) {
         return orderMapper.selectOrder(id);
+    }
+
+    @Override
+    public int insert(Order order) {
+        return orderMapper.insert(order);
     }
 }
